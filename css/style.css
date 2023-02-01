@@ -135,7 +135,7 @@ body {
 }
 
 .gallery-slider {
-  min-height: 715px;
+  min-height: 720px;
   overflow: hidden;
 }
 
@@ -159,9 +159,57 @@ body {
   bottom: -65px;
   z-index: 50;
   height: 5px;
-  width: 98%;
-  background: yellowgreen;
   width: 114px;
+  background: #e5e5e5;
+  width: 114px;
+}
+
+.gallery-slider .swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #000;
+  border-radius: 10px;
+  border-radius: 0;
+  left: 0;
+  top: 0;
+}
+
+.gallery-slider .swiper-button-next,
+.gallery-slider .swiper-button-prev {
+  top: 106%;
+  margin-top: 0;
+  background: yellowgreen;
+}
+
+.gallery-slider .swiper-button-next:after,
+.gallery-slider .swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  display: none;
+}
+
+.gallery-slider .swiper-button-prev:after,
+.gallery-slider .swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  display: none;
+}
+
+.gallery-slider .swiper-button-next {
+  background: url("../img/icons/next.svg") center center no-repeat;
+}
+
+.gallery-slider .swiper-button-prev {
+  background: url("../img/icons/prev.svg") center center no-repeat;
+}
+
+.gallery-slider .swiper-button-prev {
+  left: 45%;
+  right: auto;
+}
+
+.gallery-slider .swiper-button-next {
+  right: 45%;
+  left: auto;
 }
 
 .gallery-slider__content {
