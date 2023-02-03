@@ -16,3 +16,7 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+
+$('[data-fancybox]').fancybox({
+	// Options will go here
+});

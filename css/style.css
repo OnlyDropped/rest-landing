@@ -269,8 +269,49 @@ body {
   margin: 0 auto;
 }
 
+.about-main {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.about-main__title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.about-main__logo {
+  margin-bottom: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.about-main__video {
+  max-width: 920px;
+  width: 100%;
+  min-height: 479px;
+  background: url("../img/about/bg.jpg") center center no-repeat, #c4c4c4;
+  border: 10px solid #fff;
+  -webkit-box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+          box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+  background-size: cover;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
 .about {
   padding: 329px 0 90px;
+  padding-top: 165px;
   background: #f7f7f7;
 }
 
